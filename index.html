@@ -25,7 +25,8 @@
       }
     </style>
     <script>
-        function display(){
+        async function display(){
+        await fetch("https://josespinoza09.github.io/Test/Assets/")  
         document.querySelector("#container").innerHTML += `<img
       style="
         display: block;
@@ -35,12 +36,12 @@
         margin-right: 50px;
         width: 20%;
       "
-      src="./Assets/foto7.jpg"
+      src="./Assets/foto7.png"
     />
 
     <img
       style="display: block; margin-left: 50px; margin-right: auto; width: 20%"
-      src="./Assets/foto3.jpg"
+      src="./Assets/foto3.png"
     />
 
     <img
@@ -51,12 +52,12 @@
         margin-right: 50px;
         width: 20%;
       "
-      src="./Assets/foto6.jpg"
+      src="./Assets/foto6.png"
     />
 
     <img
       style="display: block; margin-left: 50px; margin-right: auto; width: 20%"
-      src="./Assets/foto4.jpg"
+      src="./Assets/foto4.png"
     />
 
     <img
@@ -68,12 +69,12 @@
         margin-right: 50px;
         width: 20%;
       "
-      src="./Assets/foto1.jpg"
+      src="./Assets/foto1.png"
     />
 
     <img
       style="display: block; margin-left: 50px; margin-right: auto; width: 20%"
-      src="./Assets/foto5.jpg"
+      src="./Assets/foto5.png"
     />`
         }
     </script>
